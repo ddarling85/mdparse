@@ -1,0 +1,69 @@
+ERROR: Cannot open log file "/var/log/nxagentd.log", logs will be written to syslog with debug level 1
+Error reading additional configuration files from "/etc/nxagentd.conf.d"
+2020.03.25 21:51:47.976 *I* [                   ] Core agent version 3.0-2357-g840cf7d
+2020.03.25 21:51:47.976 *I* [                   ] Additional configuration files was loaded from /etc/nxagentd.conf.d
+2020.03.25 21:51:47.976 *I* [                   ] Debug level set to 1
+2020.03.25 21:51:47.976 *I* [                   ] Data directory: /opt/netxms/var/lib/netxms
+2020.03.25 21:51:47.976 *I* [                   ] File store: /tmp
+2020.03.25 21:51:47.976 *D* [                   ] Subagent API initialized
+2020.03.25 21:51:47.976 *D* [threads.pool       ] Thread pool PROCEXEC initialized (min=1, max=32)
+2020.03.25 21:51:47.977 *D* [                   ] Validating ciphers
+2020.03.25 21:51:47.977 *D* [                   ]    AES-256 enabled
+2020.03.25 21:51:47.977 *D* [                   ]    Blowfish-256 enabled
+2020.03.25 21:51:47.977 *D* [                   ]    IDEA enabled
+2020.03.25 21:51:47.977 *D* [                   ]    3DES enabled
+2020.03.25 21:51:47.977 *D* [                   ]    AES-128 enabled
+2020.03.25 21:51:47.977 *D* [                   ]    Blowfish-128 enabled
+2020.03.25 21:51:47.977 *D* [                   ] Crypto library initialized
+2020.03.25 21:51:47.988 *D* [                   ] SQLite version 3.26.0
+2020.03.25 21:51:47.988 *I* [db.drv             ] Database driver "sqlite.ddr" loaded and initialized successfully
+2020.03.25 21:51:47.999 *E* [db.drv             ] SQL query failed (Query = "VACUUM"): attempt to write a readonly database
+2020.03.25 21:51:47.999 *D* [                   ] Local database opened successfully
+2020.03.25 21:51:48.000 *I* [                   ] Agent ID is dfeb9cfe-d4a6-4884-8ef7-e888e37874be
+2020.03.25 21:51:48.000 *I* [                   ] Local host name is "hv-centos2.paraklesys-inc.com"
+2020.03.25 21:51:48.000 *I* [                   ] Using system name "hv-centos2"
+2020.03.25 21:51:48.001 *D* [threads.pool       ] Thread pool COMM initialized (min=1, max=32)
+2020.03.25 21:51:49.014 *D* [                   ] Unable to parse /proc/drbd, DRBD data collector will not start
+2020.03.25 21:51:49.016 *I* [                   ] Subagent "Linux" (linux.nsm) loaded successfully (version 3.0-2357-g840cf7d)
+2020.03.25 21:51:50.017 *D* [                   ] Event sender thread started
+2020.03.25 21:51:50.018 *D* [threads.pool       ] Thread pool DATACOLL initialized (min=1, max=64)
+2020.03.25 21:51:50.018 *D* [                   ] Data collection scheduler thread started
+2020.03.25 21:51:50.019 *D* [                   ] Data sender thread started
+2020.03.25 21:51:50.021 *D* [                   ] Database writer thread started
+2020.03.25 21:51:50.021 *D* [                   ] Data reconciliation thread started (block size 1024, timeout 60000 ms)
+2020.03.25 21:51:50.021 *D* [                   ] SocketListener/ProxyHeartbeat: Trying to bind on 0.0.0.0:4700/udp
+2020.03.25 21:51:50.021 *D* [                   ] Session agent connector disabled
+2020.03.25 21:51:50.022 *D* [                   ] SocketListener/ProxyHeartbeat: Trying to bind on [::]:4700/udp
+2020.03.25 21:51:50.028 *D* [                   ] Trying to bind on 0.0.0.0:4700
+2020.03.25 21:51:50.028 *D* [                   ] Trying to bind on [::]:4700
+2020.03.25 21:51:50.028 *I* [                   ] Listening on socket 0.0.0.0:4700
+2020.03.25 21:51:50.028 *I* [                   ] Listening on socket :::4700
+2020.03.25 21:51:50.041 *W* [                   ] Registration on management server failed (unable to resolve name of management server)
+2020.03.25 21:51:51.046 *I* [                   ] NetXMS Agent started
+Agent running. Press Ctrl+C to shutdown.
+2020.03.25 21:52:20.132 *D* [comm.cs.1          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 21:52:20.133 *D* [comm.cs.1          ] Server ID set to 2D17A83A00007453
+2020.03.25 21:52:20.135 *D* [comm.cs.1          ] Server ID set to 2D17A83A00007453
+2020.03.25 22:27:36.163 *D* [comm.cs.2          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:04.053 *D* [comm.cs.3          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:08.340 *D* [comm.cs.4          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:12.644 *D* [comm.cs.5          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:12.945 *D* [comm.cs.6          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:13.254 *D* [comm.cs.7          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:13.587 *D* [comm.cs.8          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:13.626 *D* [comm.cs.9          ] Server capabilities: IPv6: yes; bulk reconciliation: yes; compression: yes
+2020.03.25 22:28:13.631 *D* [comm.cs.9          ] Server ID set to 2D17A83A00007453
+2020.03.25 22:28:13.636 *D* [comm.cs.9          ] Server ID set to 2D17A83A00007453
+
+Stopping agent...
+2020.03.25 22:42:22.825 *D* [                   ] Event sender thread terminated
+2020.03.25 22:42:22.827 *D* [                   ] Data reconciliation thread stopped
+2020.03.25 22:42:22.827 *D* [threads.pool       ] Thread pool DATACOLL destroyed
+2020.03.25 22:42:22.827 *D* [                   ] Data collection scheduler thread stopped
+2020.03.25 22:42:22.827 *D* [                   ] Data sender thread stopped
+2020.03.25 22:42:22.827 *D* [                   ] Database writer thread stopped
+2020.03.25 22:42:23.827 *D* [                   ] Session Watchdog thread terminated
+2020.03.25 22:42:23.827 *D* [                   ] Listener thread terminated
+2020.03.25 22:42:23.827 *D* [threads.pool       ] Thread pool COMM destroyed
+2020.03.25 22:42:23.828 *D* [threads.pool       ] Thread pool PROCEXEC destroyed
+2020.03.25 22:42:24.032 *I* [                   ] NetXMS Agent stopped
